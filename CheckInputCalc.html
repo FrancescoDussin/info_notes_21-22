@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title> xdxd </title>
+    <link rel="stylesheet" href="sty.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+    <script src="funccalc.js"> </script>
+</head>
+<body>
+
+    <p id="kingsand" style="display:none">SANDUSANDUSANDUSANDUSANDU</p>
+        <input class = "display-box" type = "text" id = "result" disabled />
+        <input class = "button" type = "button" value = "C" onclick = "clearScreen()" style = "background-color:blueviolet;" />
+        <input class = "button" type = "button" value = "=" onclick = "calculate()" style = "background-color:blueviolet;"/>
+        <input class = "button" type = "button" value = "0" onclick = "display('0')" /> 
+        <input class = "button" type = "button" value = "1" onclick = "display('1')" />
+        <input class = "button" type = "button" value = "2" onclick = "display('2')" />
+        <input class = "button" type = "button" value = "3" onclick = "display('3')" />
+        <input class = "button" type = "button" value = "4" onclick = "display('4')" /> 
+        <input class = "button" type = "button" value = "5" onclick = "display('5')" />
+        <input class = "button" type = "button" value = "6" onclick = "display('6')" />
+        <input class = "button" type = "button" value = "7" onclick = "display('7')" /> 
+        <input class = "button" type = "button" value = "8" onclick = "display('8')" /> 
+        <input class = "button" type = "button" value = "9" onclick = "display('9')" /> 
+        <input class = "button" type = "button" value = "10" onclick = "display('10')" />
+        <input class = "button" type = "button" value = "11" onclick = "display('11')" /> 
+        <input class = "button" type = "button" value = "+" onclick = "display('+')" />
+        <input class = "button" type = "button" value = "." onclick = "display('.')" />
+        <input class = "button" type = "button" value = "-" onclick = "display('-')" />
+        <input class = "button" type = "button" value = "*" onclick = "display('*')" />
+        <div class ="rgb-border">
+            <input class = "button" type = "button" value = "RANDSANDU" onclick = "RANDSANDU()" />
+        </div>
+        <div class ="rgb-border">
+            <input class = "button" type = "button" value = "SQRTSANDU" onclick = "SQRTSANDU()" />
+        </div>
+        <div class ="rgb-border">
+            <input class = "button" type = "button" value = "LOGSANDU" onclick = "LOGSANDU('')" />
+        </div>
+        <div class ="rgb-border">
+            <input class = "button" type = "button" value = "BIGSANDU" onclick = "BIGSANDU('')" />
+        </div>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
+        <br>
+        <label for="sanducar1">Checkbox:</label> 
+        <input type="checkbox" id="sanducar1" onclick="myFunction()">
+        <input type="checkbox" id="sanducar2" name="sanducar1" value="ss">
+        <label for="sanducar2"> MEDIUM SANDU</label><br>
+        <input type="checkbox" id="sanducar3" name="sanducar1" value="sss">
+        <label for="sanducar3"> MASSIVE SANDU</label>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+      </form> 
+</body>
+</html>
